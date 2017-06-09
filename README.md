@@ -14,6 +14,11 @@ typescript-webpack-karma-mocha example
     typings install
     sudo npm install karma-cli --global
     karma start
+
+## command line output
+
+![Screenshot](doc/terminal.png)
+
 ## used libraries
 
 | Library | Version |
