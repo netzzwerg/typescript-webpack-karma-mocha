@@ -19,19 +19,6 @@ module.exports = function(config) {
     exclude: [
     ],
 
-    // webpack configuration
-    webpack: {
-        module: webpackConfig.module,
-        resolve: webpackConfig.resolve
-    },
-
-    webpackMiddleware: {
-        quiet: false,
-        stats: {
-            colors: true
-        }
-    },
-
     // karma typescript configuration 
     karmaTypescriptConfig: {
         tsconfig: "./tsconfig.json",
@@ -60,7 +47,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        'src/**/*.ts': ['webpack', 'karma-typescript']
+        'src/**/*.ts': ['karma-typescript']
     },
 
     // test results reporter to use

@@ -24,7 +24,6 @@ typescript-webpack-karma-mocha example
 | Library | Version |
 | -------------- |:--------------:|
 | [karma](https://github.com/karma-runner/karma) | 1.7.0 |
-| [karma-webpack](https://github.com/webpack-contrib/karma-webpack) | 2.0.3 |
 | [webpack](https://github.com/webpack/webpack) | 2.6.1 |
 | [karma-typescript](https://github.com/monounity/karma-typescript) | 3.0.3 |
 | [typescript](https://github.com/Microsoft/TypeScript) | 2.3.3 |
