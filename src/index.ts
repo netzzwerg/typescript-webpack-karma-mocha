@@ -7,8 +7,10 @@ import RayTracer from './Raytracer'
 import Surfaces from './Surfaces'
 import { Scene } from './Interfaces'
 import DOM from 'dom'
+import * as foo from './foo.json';
 
 new DOM()
+console.log(foo);
 
 function defaultScene(): Scene {
   return {
